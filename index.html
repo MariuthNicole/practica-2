@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+</head>
+<body>
+
+    <div class="d-flex justify-content-center">
+        <div class="col-sm-5 col-xl-5 p-5 my-5 bg-white">
+          <h3 class="Texto">Formulario</h3>
+          <br />
+  
+          <form>
+            <div class="form-group">
+              <label for="name">Nombres</label>
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="nameHelp"
+              />
+              <small id="nameHelp" class="text-muted"> Escribe tu nombre</small>
+            </div>
+  
+            <div class="form-group">
+              <label for="lastName">Apellido</label>
+              <input
+                require
+                type="lastName"
+                class="form-control"
+                id="lastName"
+                aria-describedby="lastNameHelp"
+              />
+              <small id="lastNameHelp" class="text-muted"
+                >Escribe tu apellido</small
+              >
+            </div>
+  
+            <div class="form-group">
+              <label for="">Edad</label>
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="age"
+                aria-describedby="ageHelp"
+              />
+              <small id="ageHelp" class="text-muted">Escribe tu edad</small>
+            </div>
+  
+            <div class="form-group">
+              <label for="email">Correo Electronico</label>
+              <input
+                required
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+              <small id="emailHelp" class="text-muted"
+                >Escribe tu direccion de correo Electronico</small
+              >
+            </div>
+  
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+              onclick="formTest()"
+            >
+              Registrar
+            </button>
+            <script src="./Js/practica.js"></script>
+          </form>
+  
+         
+        
+        </div>
+      </div>
+
+
+</body>
+</html>
